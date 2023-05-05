@@ -1,4 +1,4 @@
-// Variables
+// Variables var es la forma antigua de escribir variables
 
 var producto = 'Audifonos Gamer'; //Inicia variable y asignarle valor
 
@@ -21,6 +21,8 @@ var nombreProducto = 'Monitor HD'; //Camelcase
 var NombrePproducto = 'Monitor HD'; //Pascal Case
 var nombreproducto = 'MonitorHD'; //underscore
 
+//Moastar por consola la variable
 console.log(producto);
+
 
 
