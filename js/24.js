@@ -27,9 +27,30 @@ for (let i = 0; i < carrito.length; i++) {
     console.log(carrito[i].nombre)
     
 }
+ 
+//While Loop  Se ejecuta cuando se cumplela condicion
 
-//While Loop
+let i = 1; //Indice
+while(i <= 100 ){ //Condicion
+    if(i%2 === 0){
+        console.log(`El numero ${i} es PAR`)
+    } else{
+        console.log(`El numero ${i} es IMPAR`)
+    }
 
+    i++; //Incremento
+}
 
+let j = 0; //Indice 
+while(j < carrito.length ){ //Condicion
+    console.log(carrito[j].nombre);
+    j++; //Incremento
+}
 
-//Do While Loop
+//Do While Loop Se ejecuta al menos una vez aunque la condicion no se cumpla
+let k = 100;
+
+do {
+    console.log(k);
+    k++;
+} while(k < 10 );
